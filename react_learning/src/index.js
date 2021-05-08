@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Clock from './clock';
 import Button from './button';
+import Clock1 from './clock1';
 
 
 ReactDOM.render(
   <React.StrictMode>
     {/*<App />*/}
     {/* <Clock /> */}
-    <Button/>
+    {/* <Button/> */}
+    <Clock1/>
   
   </React.StrictMode>,
   document.getElementById('root')
