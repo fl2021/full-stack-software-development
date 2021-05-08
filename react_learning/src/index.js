@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Clock from './clock';
+import Button from './button';
 
 
 ReactDOM.render(
   <React.StrictMode>
     {/*<App />*/}
-    <Clock />,
+    {/* <Clock /> */}
+    <Button/>
   
   </React.StrictMode>,
   document.getElementById('root')
